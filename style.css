@@ -1,0 +1,179 @@
+
+div.container
+{
+width:85%;
+border:1px solid gray;
+line-height:150%;
+margin-right:auto;
+margin-left:auto;
+margin-top:25px;
+background-color: #404040;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+body
+ {
+    background-image: url("darkgreybackground.png");
+}
+
+body {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+header,footer
+{
+clear:both;
+text-align:center;
+}
+
+header img
+{
+width:100%;
+vertical-align:middle;
+}
+
+footer
+{
+padding:10px;
+font-family:"Arial Black", Gadget, sans-serif;
+color:#DDA0DD;
+font-size: 115%;
+}
+
+nav 
+{
+width:100%;
+}
+
+nav ul 
+{
+margin:0;
+padding:0;
+list-style-type:none;
+}
+
+nav ul li 
+{
+display:inline-block;
+margin:0;
+padding:6px 0;
+font-family:"Arial Black", Gadget, sans-serif;
+background: #666666;
+border: 2px solid black;
+}
+
+nav a 
+{  
+display:block;
+width:190px;
+font-weight:bold;
+color:#FFFFFF;
+padding:6px;
+text-decoration:none;
+outline:0;	 
+}
+
+
+nav li:hover 
+{  
+background-color:#9933ff;
+}
+
+nav a:hover 
+{  
+color: #333333;
+}
+
+article
+{
+float:left;
+width:70%;
+padding:1% 3%;
+background-color: #333333;
+}
+
+article figure
+{
+float:left;
+border:2px solid black;
+margin-left:5px;
+margin-right:20px;
+text-align:center;
+}
+
+article table
+{
+margin:0;
+margin-right:auto;
+margin-left:auto;
+border:1px solid gray;
+}
+
+article td
+{
+padding:3px 12px;
+border:1px solid gray;
+}
+
+aside 
+{
+width:22%;
+float:left;
+padding:1%;
+text-align:center;
+}
+
+article ul 
+{
+list-style-position: inside;
+padding:1px 1px;
+}
+
+ /* unvisited link */
+a:link {
+    color: #9999ff;
+}
+
+/* visited link */
+a:visited {
+    color: #9999ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #66c2ff;
+}
+
+/* selected link */
+a:active {
+    color: #DDA0DD;
+} 
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+
